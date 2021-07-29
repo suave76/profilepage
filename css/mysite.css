@@ -1,0 +1,251 @@
+body {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  margin: 0;
+  position: relative;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 5.31rem;
+  color: #57837b;
+}
+
+p {
+  font-weight: 300;
+  font-size: 1.5625rem;
+  color: #394144;
+  margin: 5% auto 10%;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 7px;
+  width: 60px;
+  margin: 0 auto;
+  background-color: #f1ecc3;
+  border-color: #394144;
+}
+
+/* header section  */
+#header {
+  background-color: #f1ecc3;
+  padding: 5% 15% 0;
+}
+
+h1 {
+  margin: 0;
+  font-family: "Sacramento", cursive;
+  font-size: 8.125rem;
+  color: #57837b;
+}
+
+.top_para {
+  margin: 3% auto 7%;
+  font-size: 2.5rem;
+  color: #57837b;
+}
+
+/* hello section */
+#hello {
+  padding: 5% 15% 0;
+  background-color: #f4f3eb;
+}
+
+/* about me section  */
+#about {
+  padding: 7% 15% 0%;
+  background-color: #f4f3eb;
+}
+
+.about_mobile {
+  display: none;
+}
+
+.about_content {
+  margin: 7% auto;
+}
+
+.about_txt {
+  text-align: left;
+}
+
+.middle_txt {
+  text-align: right;
+}
+
+.image_container {
+  padding-top: 4%;
+}
+
+.about_img {
+  width: 50%;
+}
+
+.anticlock {
+  transform: rotate(-20deg);
+}
+.clock {
+  transform: rotate(20deg);
+}
+
+/* cta section  */
+#cta {
+  padding: 7% 15%;
+  background-color: #f4f3eb;
+}
+
+.contact {
+  color: #f1ecc3;
+  display: inline-block;
+  border: none;
+  border-radius: 50px;
+  padding: 20px 40px;
+  background-image: linear-gradient(to bottom, #7fc7ba, #57837b);
+  box-shadow: 0 5px 5px 0px #c3ccca;
+}
+
+.contact:hover {
+  background-image: linear-gradient(to top, #7fc7ba, #57837b);
+  box-shadow: 0 -5px 5px 0px #c3ccca;
+  color: #f1ecc3;
+}
+
+/* socialmedia section  */
+#socialmedia {
+  background-color: #f1ecc3;
+  padding: 7% 15%;
+}
+
+a {
+  font-weight: 300;
+  font-size: 25px;
+  text-decoration: none;
+  color: #57837b;
+  padding: 0 5%;
+}
+
+a:hover {
+  color: #7fc7ba;
+}
+
+.copyright {
+  font-weight: 200;
+  font-size: 1rem;
+  color: #394144;
+  margin: 7% auto 0;
+}
+
+@media (max-width: 992px) {
+  h2 {
+    font-size: 5rem;
+  }
+
+  p {
+    font-size: 1.25rem;
+  }
+
+  /* header section  */
+  h1 {
+    font-size: 6rem;
+  }
+  .top_para {
+    font-size: 2rem;
+  }
+
+  /* about section  */
+  .about_content p {
+    text-align: center;
+  }
+
+  .about_pc {
+    display: none;
+  }
+
+  .about_mobile {
+    display: block;
+  }
+
+  .about_mobile img {
+    margin-bottom: 2%;
+  }
+  /* socialmedia section  */
+  .copyright {
+    font-size: 0.8rem;
+  }
+}
+/*.styled {
+  border: 0;
+  padding: 10px 20px;
+  font-size: 25px;
+  text-align: center;
+  color: #f1ecc3;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgba(220, 0, 0, 1);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.styled:hover {
+  background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+*/
+
+/* .art {
+  position: absolute;
+  width: 294px;
+  height: 271px;
+  left: 310px;
+  top: 1420px;
+}
+
+.bottom {
+  background-color: #f1ecc3;
+  height: 210px;
+  padding-top: 70px;
+}
+
+.dev {
+  position: absolute;
+  width: 265px;
+  height: 240px;
+  right: 270px;
+  top: 1100px;
+}
+
+.grad {
+  position: absolute;
+  width: 293px;
+  height: 236px;
+  left: 314px;
+  top: 769px;
+}
+
+.half_para {
+  width: 481px;
+  text-align: left;
+  margin: 100px auto 100px 650px;
+}
+
+.middle {
+  background-color: #f4f3eb;
+  position: relative;
+}
+
+#dev_para {
+  text-align: right;
+  margin: 190px 605px 190px auto;
+  width: 447px;
+} */
