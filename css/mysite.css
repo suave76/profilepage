@@ -146,6 +146,11 @@ a:hover {
   }
 
   /* header section  */
+  #hello {
+    padding: 7% 15% 0;
+    text-align: center;
+  }
+
   h1 {
     font-size: 3rem;
   }
@@ -154,12 +159,12 @@ a:hover {
   }
 
   .top_image {
-    width: 50%;
+    width: 40%;
   }
 
   /* about section  */
   .about_mobile {
-    padding: 7% 12% 0%;
+    padding: 7% 10% 0%;
     background-color: #f4f3eb;
   }
 
@@ -177,7 +182,7 @@ a:hover {
 
   .about_mobile img {
     margin-bottom: 2%;
-    width: 40%;
+    width: 45%;
   }
   /* socialmedia section  */
 
